@@ -15,7 +15,7 @@ Every 3-4 projects, Hudson includes a "Challenge" Day where he provides a rough 
 - DiceSimulator - [Day 95](https://www.hackingwithswift.com/guide/ios-swiftui/7/3/challenge)
 
 ## Full project list
-The full project list shown in the same order they are taught in the course. Projects listed as "Technique Projects" are not actual apps but rather projects where the course introduced more advanced techniques for a specific topic
+The full project list shown in the same order they are taught in the course. Projects listed as "Technique Projects" are not actual apps but rather projects where the course introduced more advanced techniques for a specific topic. Click on individual projects to be directed to the main technical details for that specfiic project.
 - [WeSplit](#wesplit) -- Project 1
 - [LengthConverter](#lengthconverter) -- Challenge Project 1
 - [GuessTheFlag](#guess-the-flag) -- Project 2
@@ -46,6 +46,7 @@ The full project list shown in the same order they are taught in the course. Pro
 ### WeSplit
 An app that calculates how much each person should pay when splitting a check, including the tip percentage to add. 
 - Used @State variables binded to textfields to get user input and show the final price to split
+- Showed tip options and split count using Pickers
 
 ### LengthConverter
 Converts given units to a variety of other unit options with conversion categories of mass, distance, time, and temperature.
@@ -91,12 +92,26 @@ Similar to iExpense, this app tracks activities added by the user, giving them t
 - Stores activities in UserDefaults and loads them on app launch
 
 ### CupcakeCorner
+User can add custom cupcakes of their choosing to the cart and checkout after filling out the order details.
+- Order details are sent to a server that echos it back to verify that data was sent and received successfully
+- A photo is fetched asynchronously and displayed at checkout through a ProgressView
 
 ### Bookworm
+Created for readers, this app lets users keep track of the books they've read by creating reviews for them.
+- Books are saved and loaded using Core Data
+- Custom 5-star rating View for publishing book reviews
 
 ### FriendFace
+Allows users to view all of their friends and additional information for each friend with the tap of a button
+- Data is fetched asyncrhonously with an API call upon app launch
+- The sample users data is then decoded into swift types and saved to Core Data
+- Information is displayed for easy access by app users and updated with every app launch
 
 ### Instafilter
+Users can choose a photo from the photo library, add various filters/effects to their image, and then save that image to their photos library.
+- Uses CoreImage to apply one of the many premade filters to the user's image with slider options for available effects
+- Photos can be chosen from the photo library using the PHPickerView wrapped as a SwiftUI view
+- Images are saved back in the photo library using UIKit functions adapted to SwiftUI.
 
 ### BucketList
 
