@@ -15,32 +15,40 @@ Every 3-4 projects, Hudson includes a "Challenge" Day where he provides a rough 
 - DiceSimulator - [Day 95](https://www.hackingwithswift.com/guide/ios-swiftui/7/3/challenge)
 
 ### Full projects list in the course order
-- WeSplit -- Project 1
+Projects listed as "Technique Projects" are not actual apps but rather projects where the course introduced more advanced techniques for a specific topic
+- [WeSplit](#wesplit) -- Project 1
 - LengthConverter -- Challenge Project 1
-- GuessTheFlag -- Project 2
+- [GuessTheFlag](#guess-the-flag) -- Project 2
 - ViewsAndModifiers -- Project 3 (Not listed here)
 - RockPaperScissors -- Challenge Project 2
 - BetterRest -- Project 4
 - WordScramble -- Project 5
-- Animation -- Project 6 (Technique project - Not an actual app)
+- Animation -- Project 6 (Technique project for more advanced animations)
 - MultiplicationGame ==-- Challenge Project 3
 - iExpense -- Project 7
 - Moonshot -- Project 8
-- Drawing -- Project 9 (Technique project)
+- Drawing -- Project 9 (Technique project for custom paths, shapes, animated drawings, drawing groups, etc)
 - iHabit -- Challenge Project 4
 - CupcakeCorner -- Project 10
 - BookWorm -- Project 11
-- CoreDataProject -- Project 12 (Technique project)
+- CoreDataProject -- Project 12 (Technique project for more advanced Core Data filtering, entity relationship/constraints)
 - FriendFace -- Challenge Project 5
 - Instafilter -- Project 13
 - BucketList -- Project 14
-- Accessibility -- Project 15 (Technique project)
+- Accessibility -- Project 15 (Technique project that focused entirely on accessibility features like voice over, color/motion preferences, etc)
 - PhotoGallery -- Challenge Project 6
 - HotProspects -- Project 16
 - Flashzilla -- Project 17
-- LayoutAndGeometry -- Project 18 (Technique project)
+- LayoutAndGeometry -- Project 18 (Technique project for advanced custom alignment and Geometry Reader concepts)
 - DiceSimulator -- Challenge Project 7
 - SnowSeeker -- Project 19
+
+### WeSplit
+
+### LengthConverter
+
+### Guess The Flag
+
 
 ## Note of Appreciation
 This course by Paul Hudson is an amazing way to learn SwiftUI even for beginners with zero coding experience. After completing this course, I feel that I have a solid base knowledge of how the SwiftUI framework functions and am confident that I can learn more advanced SwiftUI concepts more easily as a result of this course.
