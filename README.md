@@ -1,5 +1,5 @@
 # 100DaysOfSwiftUI
-These are all the projects I created while following Paul Hudson's 100 Days of SwiftUI course. The projects are almost the same as those in the course with two exceptions.
+These are all the projects I created while following Paul Hudson's 100 Days of SwiftUI course. The course spreads 19 projects + 7 challenge projects over 100 days, where each day takes about 1-2 hours to complete. The projects in this repo are almost the same as those in the course with two exceptions.
 
 ### Challenge features
 At the end of each project, Hudson provides a few challenge features that we could implement in our projects but gives no coding solutions for them besides a few hints. On most of the later projects, this means that the implementation of the challenge features will be largely unique.
