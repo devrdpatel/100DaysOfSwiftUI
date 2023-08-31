@@ -24,7 +24,7 @@ The full project list shown in the same order they are taught in the course. Pro
 - [BetterRest](#better-rest) -- Project 4
 - [WordScramble](#wordscramble) -- Project 5
 - Animation -- Project 6 (Technique project for more advanced animations)
-- [MultiplicationGame](#multiplication-game) ==-- Challenge Project 3
+- [MultiplicationGame](#multiplication-game) -- Challenge Project 3
 - [iExpense](#iexpense) -- Project 7
 - [Moonshot](#moonshot) -- Project 8
 - Drawing -- Project 9 (Technique project for custom paths, shapes, animated drawings, drawing groups, etc)
