@@ -114,17 +114,44 @@ Users can choose a photo from the photo library, add various filters/effects to 
 - Images are saved back in the photo library using UIKit functions adapted to SwiftUI.
 
 ### BucketList
+Perfect for creating bucket lists, this app allows users to mark locations on the map that they want to visit, and shows them locations near the selected location.
+- Utilizes MapKit to show locations on a map and retrieve location data
+- Saves encrypted location data to FileManager's docuements directory
+- Fetches nearby locations asyncrhonously using wikapedia's API
+- Enabled FaceID and TouchID authenticaiton for supported devices
 
 ### PhotoGallery
+An app where users can upload pictures with their current location and add a description about the photo.
+- Photos can be uploaded from Photo Library or taken with the camera
+- Current user location at time of photo upload is saved
+- Photos are compressed and saved to the FileManager's documents directory
 
 ### HotProspects
+The ideal app for meeting new people in a professional setting. Users can create a profile and turn it into a QR code that others can scan and save to their list of contacts within the app. 
+- TabBar View that shows list of people by contacted, uncontacted or all
+- Personal QR codes created with CoreImage's qrCodeGenerator CIFilter
+- Contacts' data is saved to File Manager's documents directory
+- Dependency used to scan QR codes
 
 ### Flashzilla
+A classic study app where users can craete a set of flashcards and study them.
+- Flashcards appear "stacked" in a ZStack
+- Data is saved to File Manager's documents directory
+- Custom Swipe Gestures created to animate card out of stack (also animates card color for correct/incorrect)
+- Accessibiliity features added for voice over and differentiate without color
 
 ### Dice Simulator
+Simulates dice rolls with a variety of die counts and types. Dice rolls are saved to the history for later reference.
+- TabBar View used to show current simulation or dice roll history
+- Dice rolls are animated using a Time publisher
+- Simulated rolls are saved to File Manager's documents directory
 
 ### SnowSeeker
-
+This app will help users find the perfect ski resort for them based on a variety of factors, providing users with detailed information on individual ski resorts.
+- Adapted to support iPadOS and max-sized phone screens through sizeClasses
+- Data is loaded from the Bundle using generic Bundle decoder
+- Favorites are tracked and saved to UserDefaults
+- Resorts are searchable and sortable, with favorited resorts always at the top
 
 ## Note of Appreciation
 This course by Paul Hudson is an amazing way to learn SwiftUI even for beginners with zero coding experience. After completing this course, I feel that I have a solid base knowledge of how the SwiftUI framework functions and am confident that I can learn more advanced SwiftUI concepts more easily as a result of this course.
